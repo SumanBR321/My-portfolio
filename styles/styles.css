@@ -142,7 +142,7 @@ section {
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
   height: 100%;
-  width: 70%;
+  width: 100%;
   margin-left: 4rem;
   background-color: var(--color-back);
   transition: all 0.4s ease-in-out;
