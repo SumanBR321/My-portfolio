@@ -17,7 +17,8 @@ function downloadResume() {
     const resumePath = 'https://drive.google.com/file/d/1eB6ZI6_4cCfuPThnE02By5n8_7CTL-LD/view?usp=sharing';
     const downloadLink = document.createElement('a');
     downloadLink.href = resumePath;
-    downloadLink.download = 'Sanidhya_Tiwari_Resume.pdf';
+    downloadLink.download = 'Suman.pdf';
+    downloadLink.target = '_blank';
   
     document.body.appendChild(downloadLink);
     downloadLink.click();
