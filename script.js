@@ -18,11 +18,11 @@ function downloadResume() {
     const downloadLink = document.createElement('a');
     downloadLink.href = resumePath;
     downloadLink.download = 'Suman.pdf';
-    downloadLink.target = '_blank';
-  
+    downloadLink.target = '_blank'; // Open in a new tab/window
+    
     document.body.appendChild(downloadLink);
     downloadLink.click();
-  
+    
     document.body.removeChild(downloadLink);
-  }
+}
 
