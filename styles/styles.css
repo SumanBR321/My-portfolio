@@ -175,6 +175,11 @@ section {
 }
 /*Header-content*/
 
+/*footer*/
+footer{
+  left:0px;
+  bottom:0;
+}
 /*About*/
 .about-container {
   display: grid;
