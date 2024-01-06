@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9b9a9a;
+            color: #000000;
+            font-size: 20px;
+        }
+
+        header {
+            background-color: rgb(169, 187, 198);
+            color: rgb(0, 0, 0);
+            padding: 5rem;
+            
+        }
+
+        img {
+            display: block;
+            margin:0px;
+            max-width: 420px;
+            max-height: 449px;
+            border: 2px solid #212b36;
+            border-radius:2px;
+        }
+
+        nav {
+            display: flex ;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 1rem;
+            background: #333;
+        }
+
+        nav a {
+            color: #dedede;
+            text-decoration: none;
+            font-size: 1.2rem;
+            
+        }
+
+        a:hover{
+            background: none;   
+            opacity: 50%;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        table {
+            width: 75%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 2px;
+        }
+
+        th {
+            background-color: rgb(169, 187, 198);
+            color: black;
+            border: 1px solid #000000;
+            padding: 12px;
+
+        }
+
+        td {
+            border: 1px solid #000000;
+            padding: 12px;
+            text-align: center;
+            background-color: #c0c0c0;
+        }
+
+        footer {
+            text-align: left;
+            padding: 1rem;
+            background-color:rgb(37, 37, 37);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <img align="right" id="photo" src="img/me.jpg" alt="Photo">
+    <header>
+        <h1>Suman B R</h1>
+        <h1 id="info">Personal-information</h1>
+        <p>Email📧: sumanbr16@gmail.com</p>
+        <p>contact📞: 9845281452</p>
+                LinkedIn page: <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">linkedin🔗</a>
+    </header>
+
+    <nav>
+        <a href="#photo">Photo |</a>
+        <a href="#info">Personal Info |</a>
+        <a href="#about">About |</a>
+        <a href="#edu">Education |</a>
+        <a href="#exp">Work Experience |</a>
+        <a href="#skills">Skills |</a>
+        <a href="#projects">Projects |</a>
+        <a href="#ref">References </a>
+    </nav>
+        
+
+    <section id="about">
+        <h2>About</h2>
+        <p> skilled in c programing with a blend of html, css and javascript. well versed in graphic design and DSA. Accomplished game designer with hands-on experience. Team player with project experience. Eager to apply my technical and creative skills to innovative projects in a dynamic environment.</p>
+    </section>
+
+    <section id="edu">
+        <h2>Education</h2><center>
+        <table border="3">
+            <tr>
+                <th>EDUCATION </th>
+                <th>SCHOOL</th>
+                <th>YEAR</th>
+            </tr>
+            <tr>
+                <td>Btech</td>
+                <td>RV University</td>
+                <td>2027</td>
+            </tr>
+            <tr>
+                <td>2nd puc</td>
+                <td>PES</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td>SPS</td>
+                <td>2021</td>
+            </tr>
+        </table></center>
+    </section>
+
+    <section id="exp">
+        <h2>Work Experience</h2>
+        <ul>
+            <li><p>Participated in two hackathons and became the runner up</p></li>
+            <li><p>Worked on open source projects and have been posting my codes on github since 2 years</p></li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Programming languages</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>python</li>
+        </ul>
+        <h3>Other skills</h3>
+        <ul>
+            <li>graphic designing</li>
+            <li>info graphics</li>
+            <li>adobe illustrator</li>
+            <li>video editing</li>
+        </ul>
+    </section>
+   
+    <section>
+        <h1 id="projects">Projects</h1>
+        <ol>
+            <li><b>Title: Tom and Jerry game</b>
+                <br>
+               <b>Description:</b> A runner chaser game where the player controls a runner who must escape from a relentless chaser. The game features simple controls and procedurally generated levels, making it easy to pick up and play but difficult to master.
+                <br>
+                <b>Technology</b>JavaScript, HTML, CSS
+                <br>
+                <b>Responsibilities:</b>
+                <br>
+                Developed the game engine, including the physics system and level generator.
+                Created the runner and chaser characters and their animations.
+                Designed and implemented the gameplay mechanics, such as obstacles, power-ups, and checkpoints.
+                Created the game's user interface and menus.</li>
+                <br>
+                <li><b>Title: Eye Power Detector</b>
+                    <b>Description: </b>Developed a low-cost, portable eye power tester using JavaScript, HTML, and Raspberry Pi. The tester is able to measure the refractive error of the eye, including myopia (nearsightedness), hyperopia (farsightedness), and astigmatism.
+                </li><br>
+                <li><b>One of my game built using javascript : </b><a href="https://sumanbr321.github.io/spacejams/">https://sumanbr321.github.io/spacejams/</a></li>
+        </ol>
+    </section>
+
+    <section id="ref">
+        <h2>References</h2>
+        <p>available upon request</p>
+    </section>
+
+    <footer>
+        &copy; 2023 Suman B R
+    </footer>
+
+</body>
+</html>
